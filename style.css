@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+}
+
+.bg-light-aqua {
+    background-color: #d7ecf0;
+}
+
+.bg-light-pink {
+    background-color: #FFEEEE;
+}
+
+.bg-light-yellow {
+    background-color: #fcf2d8;
+}
+
+.style-font {
+    color: tomato;
+    font-size: 45px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.hero-section {
+    text-align: center;
+    background-image: linear-gradient(rgba(41, 39, 39, 0), #101010), url(./images/donation8.jpg);
+    background-size: cover;
+    padding: 250px 0px;
+    width: 100%;
+
+}
+
+.hero-section h1 {
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.button,
+.hero-section a {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+    width: 200px;
+    background-color: #FF5959;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-activities,
+.donate-plan,
+.donation-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities {
+    width: 50%;
+    height: 500px;
+    margin: 10px;
+    padding: 5px;
+    margin-right: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.activities h2 {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.activities p {
+    text-align: justify;
+    width: 80%;
+    font-size: 20px;
+    padding: 0px 50px;
+}
+
+.read-more {
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #10223a;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.donate-plan h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plan-area {
+    text-align: center;
+}
+
+.subscription_box {
+    text-align: center;
+    margin: 50px 450px;
+    padding: 100px;
+}
+
+.plan_box {
+    padding: 80px 30px;
+    margin-left: 25px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.plan_box h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header p {
+    color: grey;
+    font-size: 18px;
+}
+
+.plan_box p {
+    color: #707070;
+    font-size: 18px;
+}
+
+.donation-amount h2 {
+    font-family: "Inter", sans-serif;
+    padding: 40px 30px;
+    margin: 10px;
+    color: #707070;
+    font-weight: 1200;
+    font-size: 35px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+#selected {
+    color: tomato;
+    background-color: #FFEEEE;
+    border: 2px solid tomato;
+}
+
+input[type=text] {
+    color: #707070;
+    width: 800px;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+input[type=email] {
+    width: 305px;
+    height: 50px;
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 25px;
+}
+
+input[type=submit] {
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-weight: 1200;
+    font-size: 15px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding-right: 25px;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: grey;
+}
